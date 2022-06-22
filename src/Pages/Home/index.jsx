@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import Search from "../../components/Search"
 import api from "../../services/tmdb"
 import { Container, InputArea, ListArea, Content, ContentTitle, ImageArea } from "./styles"
-const API_KEY = "ad03cd086427cc7a4502d893f155e622"
+const API_KEY = process.env.API_KEY
 
 
 export default function Home(){
